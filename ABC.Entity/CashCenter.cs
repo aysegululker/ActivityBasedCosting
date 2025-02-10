@@ -37,5 +37,16 @@ namespace ABC.Entity
 
         public string CashCenterName { get; set; }
 
+
+
+
+        //Many To Many or One To Many Tables
+        public Guid CashCenterGroupID { get; set; }
+
+
+
+        //Bir NM'nin bir NM Sınıfı olabilir.
+        public virtual CashCenterGroup CashCenterGroup { get; set; }
+
     }
 }

@@ -16,6 +16,8 @@ namespace ABC.Mapping
             builder.HasKey(x => x.ID);
             builder.Property(x => x.CashCenterCode).IsRequired();
             builder.Property(x => x.CashCenterName).IsRequired().HasMaxLength(50);
+            builder.HasOne(x => x.CashCenterGroup).WithMany(x => x.CashCenters).HasForeignKey(x => x.CashCenterGroupID);
+
         }
     }
 }
