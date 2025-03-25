@@ -9,7 +9,7 @@ namespace ABC.Entity
 {
     public class CashCenter : BaseEntity
     {
-        //Nakit Merkezi
+        //Nakit Merkezi & Cash Center
 
         bool _isCashAssigned;
         short _cashCenterCode;

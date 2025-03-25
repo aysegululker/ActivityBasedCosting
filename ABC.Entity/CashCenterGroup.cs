@@ -9,7 +9,7 @@ namespace ABC.Entity
 {
     public class CashCenterGroup: BaseEntity
     {
-        //Nakit Merkezi Sinifi
+        //Nakit Merkezi Sinifi & Cash Center Group
         public string CashCenterGroupName { get; set; }
 
 

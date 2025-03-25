@@ -18,6 +18,8 @@ namespace ABC.DataAccess
         #region DatabaseTables
         public DbSet<CashCenter> CashCenters { get; set; }
         public DbSet<CashCenterGroup> CashCenterGroups { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<ServiceClass> ServiceClasses { get; set; }
 
         #endregion
     }
