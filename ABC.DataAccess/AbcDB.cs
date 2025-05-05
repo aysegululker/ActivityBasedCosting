@@ -20,6 +20,9 @@ namespace ABC.DataAccess
         public DbSet<CashCenterGroup> CashCenterGroups { get; set; }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<ServiceClass> ServiceClasses { get; set; }
+        public DbSet<DistributionKey> DistributionKeys { get; set; }
+        public DbSet<ReflectionOfTheMainCost> ReflectionOfTheMainCosts { get; set; }
+        public DbSet<CostItem> CostItems { get; set; }
 
         #endregion
     }
