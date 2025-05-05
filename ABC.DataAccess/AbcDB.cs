@@ -16,14 +16,14 @@ namespace ABC.DataAccess
         }
 
         #region DatabaseTables
+        public DbSet<BudgetValue> BudgetValues { get; set; }
         public DbSet<CashCenter> CashCenters { get; set; }
         public DbSet<CashCenterGroup> CashCenterGroups { get; set; }
+        public DbSet<CostItem> CostItems { get; set; }
         public DbSet<Customer> Customers { get; set; }
-        public DbSet<ServiceClass> ServiceClasses { get; set; }
         public DbSet<DistributionKey> DistributionKeys { get; set; }
         public DbSet<ReflectionOfTheMainCost> ReflectionOfTheMainCosts { get; set; }
-        public DbSet<CostItem> CostItems { get; set; }
-
+        public DbSet<ServiceClass> ServiceClasses { get; set; }
         #endregion
     }
 }
