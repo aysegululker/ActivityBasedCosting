@@ -23,6 +23,8 @@ namespace ABC.DataAccess
         public DbSet<CostItem> CostItems { get; set; }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<DistributionKey> DistributionKeys { get; set; }
+        public DbSet<KmTime> KmTimes { get; set; }
+        public DbSet<KmValue> KmValues { get; set; }
         public DbSet<ReflectionOfTheMainCost> ReflectionOfTheMainCosts { get; set; }
         public DbSet<ServiceClass> ServiceClasses { get; set; }
         public DbSet<TheCostElementUsedTheEvaluation> TheCostElementUsedTheEvaluations { get; set; }

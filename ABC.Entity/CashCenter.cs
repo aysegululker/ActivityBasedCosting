@@ -47,7 +47,13 @@ namespace ABC.Entity
 
         //Bir NM'nin bir NM Sınıfı olabilir.
         public virtual CashCenterGroup CashCenterGroup { get; set; }
+
+        //Bir NM'nin bir Km Değeri olabilir.
+        public virtual KmValue KmValues { get; set; }
+
         //Bir NM'nin birden fazla Bütçe Değeri olabilir.
         public virtual List<BudgetValue> BudgetValues { get; set; } = new List<BudgetValue>();
+
+        
     }
 }
