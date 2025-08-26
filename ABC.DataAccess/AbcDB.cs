@@ -16,6 +16,7 @@ namespace ABC.DataAccess
         }
 
         #region DatabaseTables
+        public DbSet<Activity> Activities { get; set; }
         public DbSet<BudgetValue> BudgetValues { get; set; }
         public DbSet<CashCenter> CashCenters { get; set; }
         public DbSet<CashCenterGroup> CashCenterGroups { get; set; }
@@ -24,6 +25,7 @@ namespace ABC.DataAccess
         public DbSet<DistributionKey> DistributionKeys { get; set; }
         public DbSet<ReflectionOfTheMainCost> ReflectionOfTheMainCosts { get; set; }
         public DbSet<ServiceClass> ServiceClasses { get; set; }
+        public DbSet<TheCostElementUsedTheEvaluation> TheCostElementUsedTheEvaluations { get; set; }
         #endregion
     }
 }
