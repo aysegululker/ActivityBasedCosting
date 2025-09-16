@@ -1,13 +1,11 @@
 ﻿using ABC.Entity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft
-
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace ABC.Mapping
 {
